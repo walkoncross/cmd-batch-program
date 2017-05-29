@@ -1,0 +1,1 @@
+for /f "delims=." %%f in ('dir .\0\*.txt /ON /B') do echo %%f>>txt_List.txt
